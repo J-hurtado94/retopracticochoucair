@@ -37,7 +37,7 @@ Feature: Search by keyword
 ```
 
 ### The Screenplay implementation
-The sample code in the master branch uses the Screenplay pattern. The Screenplay pattern describes tests in terms of actors and the tasks they perform. Tasks are represented as objects performed by an actor, rather than methods. This makes them more flexible and composable, at the cost of being a bit more wordy. Here is an example:
+The sample code in the master branch uses the Screenplay pattern. The Screenplay pattern describes tests in terms of actors and the tasks they perform. tasks are represented as objects performed by an actor, rather than methods. This makes them more flexible and composable, at the cost of being a bit more wordy. Here is an example:
 ```java
     @Given("{actor} is researching things on the internet")
     public void researchingThings(Actor actor) {
