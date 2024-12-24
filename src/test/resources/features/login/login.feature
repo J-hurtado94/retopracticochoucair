@@ -6,5 +6,5 @@ Feature: Login
     When user use valid credentials
       | user       | password       |
       | <username> | <userpassword> |
-    Then should see a "Products" message
+    Then should see a "Tablero" message
 

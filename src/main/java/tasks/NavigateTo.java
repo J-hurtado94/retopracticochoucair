@@ -5,8 +5,8 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
 
 public class NavigateTo {
-    public static Performable theSearchHomePage() {
+    public static Performable theLoginPage() {
         return Task.where("{0} opens the sauce demo login page",
-                Open.browserOn().the(SauceDemo.class));
+                Open.browserOn().the(SerenityDemo.class));
     }
 }

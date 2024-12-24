@@ -19,7 +19,7 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 public class LoginStepDefinitions {
     @Given("{actor} is on the login page")
     public void user_is_on_the_login_page(Actor actor) {
-       actor.wasAbleTo(NavigateTo.theSearchHomePage());
+       actor.wasAbleTo(NavigateTo.theLoginPage());
     }
 
     @DataTableType
